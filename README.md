@@ -1,5 +1,6 @@
 # TestDart
 
+bin >> <br>
 BangkokCentury.dart คิดราคาการซื้อตั๋วแบบเหมา <br>
 Dart01HelloWorld พื้นฐานการเขียนคำสั่งprint <br>
 Dart02Variables.dart พื้นฐานการสร้างตัวแปรและเรียกใช้ตัวแปร <br>
