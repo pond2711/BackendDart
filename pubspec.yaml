@@ -1,0 +1,15 @@
+name: dart_basic #required
+description: A basic dart project. #required
+
+version: 1.0.0+1 #required
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  intl: ^0.17.0 #to import package:intl/intl.dart for Numberformat() class
+  flutter:
+    sdk: flutter
+  meta: ^1.7.0 #to import package:meta/meta.dart for using @required
+
+dev_dependencies:
