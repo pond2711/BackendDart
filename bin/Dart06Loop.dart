@@ -12,7 +12,7 @@ void main() {
   
   var objDou2Format = NumberFormat('#,###,##0.00');
   var objGetInt = GetValue();
-  /*
+  
   stdout.write("Please input your income (THB/week) : ");
   double douIncome = double.parse(stdin.readLineSync().toString());
   print("Your income is ${objDou2Format.format(douIncome * 4)} (THB/month)");
@@ -23,7 +23,7 @@ void main() {
   int intB = int.parse(stdin.readLineSync().toString());
   var objFac = Factorial();
   print("$intB = ${objDou2Format.format(objFac.Fac(intB))}");
-  */
+  
   //divisible(); //call divisible() function
   int intB = objGetInt.getInt(strValueName: "based number", intMin: 1, intMax: 25);
   var objFac = Factorial();
@@ -45,7 +45,7 @@ void main() {
 
   print("--------------------end of program--------------------");
 }
-/*
+
 void factorial() {
   var objDouble2formatter = NumberFormat("#,###,##0.00");
   //while loop
@@ -92,7 +92,7 @@ void divisible() {
   strTemp = strTemp.substring(0, strTemp.length - 1);
   print(
       "Between $intStart-$intStop there are $intCountB numbers ($strTemp) that are divisible by $intStep");
-}*/
+}
 
 void depreciation() {
   var objDouble2Format = NumberFormat("#,###,##0.00");
