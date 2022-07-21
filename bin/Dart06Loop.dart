@@ -41,6 +41,7 @@ void main() {
   print(
       "Between $intStart-$intStop there are ${objDivisible.divis(intStart, intStop, intStep)} that are divisible by $intStep");
 
+  //Depreciation //call depreciation() function
   depreciation();
 
   print("--------------------end of program--------------------");
