@@ -40,7 +40,7 @@ void main() {
       }
       double doufinal = doupay*(1-doudiscount);
 
-      print("Your order is ${objDouble2Format.format(doufinal)} THB with ${objDouble2Format.format(doudiscount)}% discount");
+      print("Your order is ${objDouble2Format.format(doufinal)} THB with ${objDouble2Format.format(doudiscount*100)}% discount");
       print("-----------------end of program---------------------");
   }
   else{
